@@ -1,0 +1,14 @@
+sequenceDiagram
+
+title: Exercise 0.5
+    participant browser1
+    participant server1
+
+    browser1->>server1: GET https://studies.cs.helsinki.fi/exampleapp/spa
+    server1-->>browser1: document
+    browser1->>server1: GET https://studies.cs.helsinki.fi/exampleapp/main.css
+    server1-->>browser1: main.css
+    browser1->>server1: GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+    server1-->>browser1: spa.js
+    browser1->>server1: GET https://studies.cs.helsinki.fi/exampleapp/data.json
+    server1-->>browser1: data.json

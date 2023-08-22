@@ -1,0 +1,10 @@
+sequenceDiagram
+
+title: Exercise 0.6
+    participant browser1
+    participant server1
+
+    browser1 ->> server1: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+    note right of browser1: status code 201
+    server1 -->> browser1: application/json
+    note left of server1: render new list
