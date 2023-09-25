@@ -1,0 +1,101 @@
+// successful POST
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Does_this_work?", 
+    "number": "11"
+}
+###
+// another succesful POST
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Iines123456456456456", 
+    "number": "123123"
+}
+
+###
+// Error handling
+
+// no name
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "number": "1231231231231"
+}
+
+###
+// no number
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Ankka"
+}
+
+
+###
+//duplicate
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+    { 
+      "name": "Arto Hellas", 
+      "number": "040-123456"
+    }
+
+###
+// length < 3
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+    {
+        "name": "Ju",
+        "number": "18238132"
+    }
+
+###
+// wrong number format
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+    {
+        "name": "invalid-number1",
+        "number": "1234556"
+    }
+
+###
+// wrong number format
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+    {
+        "name": "invalid-number2",
+        "number": "1-22334455"
+    }
+
+###
+// wrong number format
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+    {
+        "name": "invalid-number3",
+        "number": "10-22-334455"
+    }
+
+###
+// valid random number
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+    {
+        "name": "validnumber3",
+        "number": "12-45678"
+    }
+
+
+

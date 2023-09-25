@@ -1,0 +1,5 @@
+GET http://localhost:3001/api/persons/
+
+###
+// get person by id
+GET http://localhost:3001/api/persons/650482b9f3064fcd57040fb9

@@ -1,0 +1,2 @@
+// delete person with id 4
+DELETE http://localhost:3001/api/persons/4
