@@ -1,0 +1,8 @@
+// delete blog with wrong token
+DELETE http://localhost:3003/api/blogs/65353f2843eaa7e8f13193ef
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c222bmFtZSI6Im5haWtvdSIsImlkIjoiNjUyZjFhODVkOWFiZjhjNTg0ZDUyNjZhIiwiaWF0IjoxNjk3ODQ2NTYzfQ.WfKMU8KgQoePeNIrq-RbnjfZuyIH3fyX45-4x-iv3Fs
+###
+// 653313f5c728035eb56e33c0
+// delete blog with right token
+DELETE http://localhost:3003/api/blogs/6537a686a9b7366c8f0048ed
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5haWtvdSIsImlkIjoiNjUyZjFhODVkOWFiZjhjNTg0ZDUyNjZhIiwiaWF0IjoxNjk4MTQ1ODc5fQ.5A4BVAEEigW6YTNoPmazQkhgI5RY-YWdiyP8Lh_kvwM
