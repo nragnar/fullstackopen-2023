@@ -1,0 +1,37 @@
+  .error {
+    color: red;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .notification {
+    color: green;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .blog-style {
+    max-width: 33%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+    margin: 0 0 5px 5px;
+    border: solid;
+    border-radius: 5px;
+  }
+
+  .blog-title {
+    margin: 0 0 2px 2px;
+  }
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+}

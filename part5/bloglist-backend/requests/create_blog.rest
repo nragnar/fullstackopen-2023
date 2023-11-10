@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5haWtvdSIsImlkIjoiNjUzOGY3NTU0MmEyMDQ4YWEzMjllYTY1IiwiaWF0IjoxNjk4MjcxNjY0fQ.6AMluk9n78w94YY8ZNENpK17vuiPO3J82cUQ4bSOY1A
+
+{
+    "title": "filler blog number 3",
+    "number": "123",
+    "author": "123",
+    "url": "211212121212cccc.com",
+    "likes": 1337
+}
